@@ -1,0 +1,12 @@
+{
+  "name": "botik",
+  "version": "0.0.1",
+  "description": "Я чё знаю?",
+  "main": "index.js",
+  "scripts": {},
+  "author": "noki",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^12.3.1"
+  }
+}
