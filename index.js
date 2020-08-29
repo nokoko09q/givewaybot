@@ -18,7 +18,7 @@ client.on('message', msg => {
         let winner = randuser()
         const embed = new Discord.MessageEmbed()
         .setTitle('Конкурс')
-        .addField('Приз', args[1], true)
+        .addField('Приз', args.slice(1), true)
         .addField('Победитель', winner.user.tag, true)
         .setColor('#33ff33')
         msg.channel.send(embed)
